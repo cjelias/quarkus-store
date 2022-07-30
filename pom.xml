@@ -6,16 +6,21 @@
 
 	<groupId>ca.celias</groupId>
 	<artifactId>quarkus-store</artifactId>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<version>1.0</version>
+
+    <name>Quarkus Store</name>
+    
+  <properties>
+    <maven.compiler.release>17</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+    
 	<modules>
-                <module>store-common</module>
-                <module>shared-domains</module>
-		<module>account-service</module>
-		<module>customer-service</module>
-		<module>order-service</module>
-		<module>product-service</module>
+		<module>account-module</module>
+		<module>customer-module</module>
+		<module>order-module</module>
+		<module>product-module</module>
 	</modules>
-
-
 </project>
