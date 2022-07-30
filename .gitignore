@@ -13,5 +13,5 @@ buildNumber.properties
 .project
 .classpath
 .settings
-customer-module/cus-framework/.classpath
-account-module/acc-bootstrap/.classpath
+.idea
+*.iml
